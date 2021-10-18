@@ -1,0 +1,1 @@
+# monitor-obniz-on-azure-sample
