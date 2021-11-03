@@ -1,0 +1,29 @@
+{
+  "name": "monitor-obniz-on-azure-sample",
+  "version": "0.0.1",
+  "description": "A sample to monitor obniz on Microsoft Azure",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzeyelid/monitor-obniz-on-azure-sample.git"
+  },
+  "author": "Kazumi OHIRA <dzeyelid@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dzeyelid/monitor-obniz-on-azure-sample/issues"
+  },
+  "homepage": "https://github.com/dzeyelid/monitor-obniz-on-azure-sample#readme",
+  "dependencies": {
+    "azure-iot-device": "^1.17.8",
+    "azure-iot-device-mqtt": "^1.15.8",
+    "obniz": "^3.17.0",
+    "obniz-cloud-sdk": "^1.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
