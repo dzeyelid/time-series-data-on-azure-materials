@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsStorage": "",
+    "EVENTHUB_CONNECTION_STRING": "<Azure Event Hub の接続文字列>"
+  }
+}
