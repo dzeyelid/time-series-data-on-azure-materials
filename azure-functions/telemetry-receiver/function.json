@@ -14,8 +14,7 @@
       "type": "http",
       "direction": "out",
       "name": "res"
-    },  // ← コンマを忘れずに
-    // ↓↓ IoT Hub の出力バインドの設定を追加する
+    },
     {
       "type": "eventHub",
       "name": "outputEventHubMessage",
@@ -23,6 +22,5 @@
       "connection": "EVENTHUB_CONNECTION_STRING",
       "direction": "out"
     }
-    // ↑↑
   ]
 }
